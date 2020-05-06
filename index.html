@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet"> 
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header>
@@ -21,33 +20,33 @@
     <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
   </header>
 
-  <section>
-    <div>
+  <section class="col col--center grid">
+    <div class="card card--green col">
       <h3>Supervisor</h3>
       <p>Monitors activity to identify project roadblocks</p>
-      <img src="images/icon-supervisor.svg" alt="">
+      <img src="images/icon-supervisor.svg" class="card__img" alt="">
     </div>
-    <div>
+    <div class="card card--red col">
       <h3>Team Builder</h3>
       <p>Scans our talent network to create the optimal team for your project</p>
-      <img src="images/icon-team-builder.svg" alt="">
+      <img src="images/icon-team-builder.svg" class="card__img" alt="">
     </div>
-    <div>
+    <div class="card card--yellow col">
       <h3>Karma</h3>
       <p>Regularly evaluates our talent to ensure quality</p>
-      <img src="images/icon-karma.svg" alt="">
+      <img src="images/icon-karma.svg" class="card__img" alt="">
     </div>
-    <div>
+    <div class="card card--blue col">
       <h3>Calculator</h3>
       <p>Uses data from past projects to provide better delivery estimates</p>
-      <img src="images/icon-calculator.svg" alt="">
+      <img src="images/icon-calculator.svg" class="card__img" alt="">
     </div>
   </section>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/alexisjonas" target="_blank">Alexis Jonas</a>.
     </p>
   </footer>
 </body>
